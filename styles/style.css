@@ -1,0 +1,48 @@
+#page {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #a0c4ff 40%,#4895ef 10%, #4895ef 70%, #a0c4ff 10%)!important;                                                                                             
+}
+#card{
+    margin: auto;
+    margin-top: 10%;
+    height: 400px;
+    background-color: #013a63;
+
+}
+#form1,
+#form2,
+#form3{
+    background-color: #01497c;
+    width: 90%;
+    margin: auto;
+    border-radius: 0;
+    border: none;
+    color: white;
+}
+#lost {
+    text-decoration: none;
+font-size: small;
+color: grey;
+float: right;
+}
+#login{
+    padding: 0 20px;
+    margin-top: 40px;
+    margin-left: 24px;
+    /* text-decoration: none; */
+    /* color: white; */
+}
+::-webkit-input-placeholder{
+    color: white!important;
+}
+ a {
+    color: white;
+    text-decoration: none;
+}
+#name{
+    /* margin-right: 100px; */
+}
